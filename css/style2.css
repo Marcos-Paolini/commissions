@@ -1,0 +1,19 @@
+body {
+    color: azure;
+    background-image: url(../images/backgroundtest.png);
+    background-repeat: no-repeat;
+    h1{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: oblique;
+color: azure;
+    }
+    h2{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+    }
+    .aclaration{
+color: yellow
+    }
+    }
