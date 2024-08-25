@@ -13,7 +13,79 @@ color: azure;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: oblique;
     }
+
     .aclaration{
 color: yellow
     }
+
+    p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: yellow
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 16px;
+    }
+
+    .cards-container{
+        display: grid;
+        gap: 1em;
+        background-color: rgba(0, 0, 0, 0.397);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 5px;
+    }
+    
+    .cards-container:hover{
+    box-shadow: 0px 0px 10px;
+    color: blue;
+    }
+
+    
+.card{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    transition-property: background-color, color, border;
+    overflow: hidden;
+}
+
+.title-cards-container{
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 10px;
+    cursor: pointer;
+}
+
+@media(min-width: 720px){
+    .cards-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .title-cards-container{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+
+@media(min-width: 992px){
+    .cards-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .title-cards-container{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}
+    
     }
