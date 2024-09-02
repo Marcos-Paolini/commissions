@@ -1,0 +1,35 @@
+.footer{
+    background-color: rgb(211, 174, 104);
+    color: white;
+    border-radius: 30px;
+}
+
+.footer .footer-header{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer .footer-redes-grandes{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+.footer .red-grande{
+padding: 2em;
+text-align: center;
+}
+
+.footer .red-grande a{
+    color: black;
+    text-decoration: none;
+    
+    }
+
+.footer img{
+    display: block;
+    width: 100%;
+    max-width: 64px;
+    margin: 0 auto;
+}
+
