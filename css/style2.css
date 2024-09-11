@@ -1,16 +1,23 @@
 body {
     color: azure;
-    background-image: url(../images/backgroundtest.png);
+    background-color: rgb(27, 27, 27);
     h1{
 font-size: 25px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: oblique;
 color: azure;
+text-align: center;
     }
     h2{
         font-size: 25px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: oblique;
+        text-align: center;
+    }
+
+    h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
     }
 
     .aclaration{
@@ -29,6 +36,7 @@ color: yellow
         background-color: rgba(0, 0, 0, 0.397);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         border-radius: 5px;
+        justify-content: center;
     }
     
     .cards-container:hover{
@@ -83,4 +91,13 @@ color: yellow
         grid-column-end: 4;
     }
 }   
+
+.siteswebs{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+
     }

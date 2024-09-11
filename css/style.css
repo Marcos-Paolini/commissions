@@ -1,6 +1,6 @@
 body {
 color: orangered;
-background-image: url(../images/backgroundtest.png);
+background-color: rgb(27, 27, 27);
 
 }
 h2{
@@ -29,24 +29,24 @@ padding-left: 1em;
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    font-size: 30px;
-color: rgb(39, 21, 119);
+    font-size: 50px;
+color: rgb(131, 109, 228);
 padding-right: 1em;
 padding-left: 1em;
 text-align: center;
 }
 
-h1:hover{
- color: aqua;
- box-shadow: 0px 0px 10px;
+p:hover{
+    transition: 300ms;
+    transform: scale(1.60);
+    color: blueviolet; 
 }
 
-h2:hover{
-    color: yellow
-   }
+
 
 h3:hover{
-    color: blue;
+    transition: 300ms;
+    transform: scale(1.30);
 }
 
 p{
@@ -116,4 +116,83 @@ color: blue;
         grid-column-start: 1;
         grid-column-end: 4;
     }
+}
+
+.morodraw {
+width: 380px;
+height: 380px;
+border-radius: 10px;
+
+}
+
+.brolydraw {
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.vegettodraw {
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.daimadraw {
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.namekdraw{
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.blackgoku {
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.gohanshallot {
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.gokublue{
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+
+.artexamples{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+
+
+.artexamples img{   
+     transition: all 300ms;
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.artexamples img:hover {
+
+transform: scale(1.05);
+
+}
+
+.mycontacttext{
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
